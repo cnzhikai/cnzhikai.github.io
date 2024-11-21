@@ -1,3 +1,5 @@
+* [Cat and dog](#About)
+* 
 ## About
 
 I am a Ph.D. student at the integrated devices, electronics, and system (IDEAS) group at the department of information technology and electrical engineering (D-ITET), ETH Zurich. My research interests include integrated circuits, bioelectronics, micro-robotics and machine learning. 
