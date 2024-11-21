@@ -38,13 +38,13 @@ I am a Ph.D. student at the integrated devices, electronics, and system (IDEAS) 
     <b>Z. Huang</b><br>
     ETH Zürich Master Thesis, 2022
 </li>
-
+<br>
 
 ## Teaching
 <li>
     2024 Fall. Teaching Assistant, Electronic Circuits, ETH Zurich
 </li>
-
+<br>
 
 ## Services
 <li>
