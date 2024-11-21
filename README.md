@@ -2,7 +2,7 @@
 
 I am a Ph.D. student at the integrated devices, electronics, and system (IDEAS) group at the department of information technology and electrical engineering (D-ITET), ETH Zurich. My research interests include integrated circuits, bioelectronics, micro-robotics and machine learning. 
 
-Before, I obtained my master degree in biomedical engineering from ETH Zurich, during which I gained experiences in designing mixed-mode integrated circuits and machine learning algorithms, and also interests in bioelectronics and biomedicine. I obtained my B.Eng in microelectronics from Xi'an Jiaotong University and was a visiting research intern at department of physics, McGill university. Contact me at zhhuang @ ethz.ch for any inquires.
+I obtained M.Sc. in biomedical engineering from ETH Zurich, B.Eng in microelectronics from Xi'an Jiaotong University, and was a visiting research intern at McGill university. Contact me at zhhuang @ ethz.ch for any inquires.
 
 ## Publications
 <li>
