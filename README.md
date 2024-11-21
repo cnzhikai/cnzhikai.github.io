@@ -5,7 +5,7 @@ I am a Ph.D. student at the integrated devices, electronics, and system (IDEAS) 
 
 I obtained M.Sc. in biomedical engineering from ETH Zurich, B.Eng in microelectronics from Xi'an Jiaotong University, and was a visiting research intern at McGill university. Contact me at zhhuang @ ethz.ch for any inquires.
 
-[About](#About) / [Publications](#Publications) / [Teaching](#Teaching) / [Services](#Services)
+[About](##About) / [Publications](##Publications) / [Teaching](##Teaching) / [Services](##Services)
 
 ## Publications
 ### Journals
