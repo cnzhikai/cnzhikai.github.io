@@ -39,7 +39,6 @@ I am a Ph.D. student at the integrated devices, electronics, and system (IDEAS) 
     ETH Zürich Master Thesis, 2022
 </li>
 
-<br>
 
 ## Teaching
 <li>
@@ -51,6 +50,7 @@ I am a Ph.D. student at the integrated devices, electronics, and system (IDEAS) 
 <li>
     Reviewer for IEEE Conferences, ISCAS (2025)
 </li>
+<br>
 
 ---
 Last update Nov. 21, 2024;
