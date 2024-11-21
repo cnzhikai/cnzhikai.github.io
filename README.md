@@ -6,38 +6,43 @@ I obtained M.Sc. in biomedical engineering from ETH Zurich, B.Eng in microelectr
 
 ## Publications
 <li>
+    Fully Integrated Pneumatic-Free and Magnet-Free CMOS Ferrofluidic Platform for Comprehensive Biomolecular Processing<br>
+    Dongwon Lee, Fuze Jiang, Hangxing Liu, Kyung-Sik Choi, Doohwan Jung, Ying Kong, Marco Saif, <b>Zhikai Huang</b>, Jing Wang, Hua Wang <br>
+    IEEE Transactions on Biomedical Circuits and Systems, 2024
+</li>
+<li>
+    A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution<br>
+    Marco Saif, Fuze Jiang, Hangxing Liu, Adam Wang, <b>Zhikai Huang</b>, Yuguo Sheng, Dongwon Lee, Thomas Burger, Hua Wang <br>
+    2024 IEEE European Solid-State Electronics Research Conference (ESSERC)
+</li>
+<li>
     Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters<br>
-    H. Liu, F. Jiang, A. Wang, <b>Z. Huang</b>, Y. Kong, M. Saif, D. Lee, T. Burger, J. Wang, and H. Wang <br>
-  2024 IEEE Symposium on VLSI Technology and Circuits, IEEE, 2024, pp. 1-2
+    Hangxing Liu, Fuze Jiang, Adam Wang, <b>Zhikai Huang</b>, Ying Kong, Marco Saif, Dongwon Lee, Thomas Burger, Jing Wang, Hua Wang<br>
+    2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)
 </li>
 <li>
     A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics<br>
-    H. Liu, F. Jiang, Y. Kong, D. Lee, Y. Sheng, A. Wang, <b>Z. Huang</b>, M. Saif, T. Burger, and J. Wang, and H. Wang<br>
-    2024 IEEE Symposium on VLSI Technology and Circuits, IEEE, 2024, pp. 1-2
-</li>
-<li>
-    A CMOS Molecular Sensor for Personalized Diagnostic Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution<br>
-    M. Saif, F. Jiang, H. Liu, A. Wang, <b>Z. Huang</b>, Y. Sheng, D. Lee, T. Burger, and H. Wang<br>
-    50th IEEE European Solid-State Electronics Research Conference (ESSERC), 2024
+    Hangxing Liu, Fuze Jiang, Ying Kong, Dongwon Lee, Yuguo Sheng, Adam Wang, <b>Zhikai Huang</b>, Marco Saif, Thomas Burger, Jing Wang, Hua Wang<br>
+    2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)
 </li>
 <li>
     17.6 Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing<br>
-    D. Lee, K. Choi, F. Jiang, H. Liu, D. Jung, Y. Kong, M. Saif, <b>Z. Huang</b>, J. Wang, and H. Wang<br>
-    2024 IEEE International Solid-State Circuits Conference (ISSCC), vol. 67, IEEE, 2024, pp. 324-326
+    Dongwon Lee, Kyung-Sik Choi, Fuze Jiang, Hangxing Liu, Doohwan Jung, Ying Kong, Marco Saif, <b>Zhikai Huang</b>, Jing Wang, Hua Wang<br>
+    2024 IEEE International Solid-State Circuits Conference (ISSCC)
 </li>
 <li>
     A 256-channel in-pixel electrochemical platform in CMOS for rapid isothermal genetic amplification and screening<br>
-    H. Liu, F. Jiang, D. Lee, Y. Sheng, A. Wang, M. Saif, Y. Kong, <b>Z. Huang</b>, T. Burger, J. Wang, and H. Wang<br>
-    ESSCIRC 2023-IEEE 49th European Solid State Circuits Conference (ESSCIRC), IEEE, 2023, pp. 297-300
+    Hangxing Liu, Fuze Jiang, Dongwon Lee, Yuguo Sheng, Adam Wang, Marco Saif, Ying Kong, <b>Zhikai Huang</b>, Thomas Burger, Jing Wang, Hua Wang<br>
+    ESSCIRC 2023-IEEE 49th European Solid State Circuits Conference (ESSCIRC)
 </li>
 <li>
     SNE: an energy-proportional digital accelerator for sparse event-based convolutions<br>
-    A. Di Mauro, A. S. Prasad, <b>Z. Huang</b>, M. Spallanzani, F. Conti, and L. Benini<br>
-    2022 Design, Automation & Test in Europe Conference & Exhibition (DATE), IEEE, 2022, pp. 825-830
+    Alfio Di Mauro, Arpan Suravi Prasad, <b>Zhikai Huang</b>, Matteo Spallanzani, Francesco Conti, Luca Benini<br>
+    2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)
 </li>
 <li>
     A continuous-time input pipelined SAR ADC with loop-embedded predictive offset generation<br>
-    <b>Z. Huang</b><br>
+    <b>Zhikai Huang</b><br>
     ETH Zürich Master Thesis, 2022
 </li>
 <br>
