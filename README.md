@@ -6,10 +6,6 @@ I am a Ph.D. student at the integrated devices, electronics, and system (IDEAS) 
 I obtained M.Sc. in biomedical engineering from ETH Zurich, B.Eng in microelectronics from Xi'an Jiaotong University, and was a visiting research intern at McGill university. Contact me at zhhuang @ ethz.ch for any inquires.
 
 ## Publications
-### Journals
-- Fully Integrated Pneumatic-Free and Magnet-Free CMOS Ferrofluidic Platform for Comprehensive Biomolecular Processing
-    - D Lee, F Jiang, H Liu, KS Choi, D Jung, Y Kong, M Saif, **Z Huang**, J Wang, H Wang
-    - 2024 IEEE Transactions on Biomedical Circuits and Systems
 
 ### Conferences
 - A CMOS-Compatible and Actuatable 3D- Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing
