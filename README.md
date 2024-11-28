@@ -1,4 +1,5 @@
-
+[About](#about) / [Publications](#publications) / [Teaching](#teaching) / [Services](#services)
+ 
 ## About
 
 I am a Ph.D. student at Integrated Devices, Electronics, and Systems (IDEAS) group in the Department of Information Technology and Electrical Engineering (D-ITET), ETH Zurich. My (tentative) doctoral theis is entitled *Electrically-Programmable Mechanical Metasurfaces on CMOS for Biomedical and Optical Applications*. In my research, I develop platforms that integrate CMOS electronics with innovative devices fabricated through CMOS-compatible processes. Additionally, I am passionate about leveraging machine learning to enhance the functionality and broaden the impact of these platforms.
