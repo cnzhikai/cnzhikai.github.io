@@ -1,13 +1,9 @@
 
 ## About
 
-I am a Ph.D. student in the Integrated Devices, Electronics, and Systems (IDEAS) group within the Department of Information Technology and Electrical Engineering (D-ITET) at ETH Zurich.
+I am a Ph.D. student in the Integrated Devices, Electronics, and Systems (IDEAS) group within the Department of Information Technology and Electrical Engineering (D-ITET) at ETH Zurich. My (tentative) doctoral theis entitles *Electrically-Programmable Mechanical Metasurfaces on CMOS for Biomedical and Optical Applications*.
 
-My (tentative) doctoral theis entitles *Electrically-Programmable Mechanical Metasurfaces on CMOS for Biomedical and Optical Applications*.
-
-I hold an M.Sc. in Biomedical Engineering from ETH Zurich and a B.Eng. in Microelectronics from Xi'an Jiaotong University. Additionally, I gained research experience as a visiting intern at McGill University.
-
-Feel free to contact me at zhhuang@ethz.ch for any inquiries.
+I hold an M.Sc. in Biomedical Engineering from ETH Zurich and a B.Eng. in Microelectronics from Xi'an Jiaotong University. Additionally, I gained research experience as a visiting intern at McGill University. Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
 ## Publications
 
