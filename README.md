@@ -10,6 +10,9 @@ I hold an M.Sc. in Biomedical Engineering from ETH Zurich and a B.Eng. in Microe
 ## Publications
 
 ### Conferences
+- MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration
+    - M Saif, F Jiang, S Lo, A Wang, **Z Huang**, J Wang, H Liu, C Shih, T Burger, H Wang
+    - 2025 IEEE International Solid-State Circuits Conference (ISSCC)
 - A CMOS-Compatible and Actuatable 3D- Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing
     - **Z Huang**, F Jiang, H Liu, Y Kong, Y Sheng, A Wang, D Lee, M Saif, H Wang
     - 2024 IEEE Biomedical Circuits and Systems Conference (BioCAS)
