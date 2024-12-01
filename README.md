@@ -1,7 +1,7 @@
  
 ## About
 
-I am a Ph.D. student at Integrated Devices, Electronics, and Systems (IDEAS) group in the Department of Information Technology and Electrical Engineering (D-ITET), ETH Zurich. My (tentative) doctoral theis is entitled *"Shape-Reconfigurable Micro-Tools and Metasurfaces on CMOS for Biomedical, Robotic, and Optical Applications"*. In my research, I develop platforms that integrate CMOS electronics with innovative devices fabricated through CMOS-compatible processes. Additionally, I am passionate about leveraging machine learning to enhance the functionality and broaden the impact of these platforms.
+I am a Ph.D. student at Integrated Devices, Electronics, and Systems (IDEAS) group in the Department of Information Technology and Electrical Engineering (D-ITET), ETH Zurich. My (tentative) doctoral theis is entitled *"Mechanical Actuators and Metasurfaces on CMOS for Biomedical, Robotic, and Optical Applications"*. In my research, I develop platforms that integrate CMOS electronics with innovative devices fabricated through CMOS-compatible processes. Additionally, I am passionate about leveraging machine learning to enhance the functionality and broaden the impact of these platforms.
 
 Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
