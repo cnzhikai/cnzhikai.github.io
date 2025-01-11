@@ -8,8 +8,15 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 [Publications](#publications) / [Teaching](#teaching) / [Services](#services) / [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
 
 ## Publications
+### Publications
 
-<small>
+<style>
+    .small-text {
+        font-size: 0.8em;
+    }
+</style>
+
+<div class="small-text">
 - MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration  
   M Saif, F Jiang, S Lo, A Wang, Z Huang, J Wang, H Liu, C Shih, T Burger, H Wang  
   2025 IEEE International Solid-State Circuits Conference (ISSCC)
@@ -45,8 +52,7 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 - A Continuous-Time Input Pipelined SAR ADC with Loop-Embedded Predictive Offset Generation  
   Zhikai Huang  
   2022 ETH Zürich Master Thesis
-</small>
-
+</div>
 
 ## Teaching
 
