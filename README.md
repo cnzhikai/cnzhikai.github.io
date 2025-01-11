@@ -10,55 +10,44 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 ## Publications
 
 ### Conferences
-<!-- Raw HTML content -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 15px;
-            background: #fff;
-            padding: 10px 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        .title {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
-        }
-        .authors, .conference {
-            font-size: 0.9em;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <ul>
-        <li>
-            <span class="title">MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array...</span>
-            <span class="authors">M Saif, F Jiang...</span><br>
-            <span class="conference">2025 IEEE International Solid-State Circuits Conference (ISSCC)</span>
-        </li>
-        <!-- Repeat for other publications -->
-    </ul>
-</body>
-</html>
+### Publications
+
+- MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration  
+  M Saif, F Jiang, S Lo, A Wang, Z Huang, J Wang, H Liu, C Shih, T Burger, H Wang  
+  2025 IEEE International Solid-State Circuits Conference (ISSCC)
+
+- A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing  
+  Z Huang, F Jiang, H Liu, Y Kong, Y Sheng, A Wang, D Lee, M Saif, H Wang  
+  2024 IEEE Biomedical Circuits and Systems Conference (BioCAS)
+
+- A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution  
+  M Saif, F Jiang, H Liu, A Wang, Z Huang, Y Sheng, D Lee, T Burger, H Wang  
+  2024 IEEE European Solid-State Electronics Research Conference (ESSERC)
+
+- Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters  
+  H Liu, F Jiang, A Wang, Z Huang, Y Kong, M Saif, D Lee, T Burger, J Wang, H Wang  
+  2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Symposium)
+
+- A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics  
+  H Liu, F Jiang, Y Kong, D Lee, Y Sheng, A Wang, Z Huang, M Saif, T Burger, J Wang, H Wang  
+  2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Symposium)
+
+- 17.6 Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing  
+  D Lee, KS Choi, F Jiang, H Liu, D Jung, Y Kong, M Saif, Z Huang, J Wang, H Wang  
+  2024 IEEE International Solid-State Circuits Conference (ISSCC)
+
+- A 256-channel in-pixel electrochemical platform in CMOS for rapid isothermal genetic amplification and screening  
+  H Liu, F Jiang, D Lee, Y Sheng, A Wang, M Saif, Y Kong, Z Huang, T Burger, J Wang, H Wang  
+  2023 IEEE European Solid State Circuits Conference (ESSCIRC)
+
+- SNE: An Energy-Proportional Digital Accelerator for Sparse Event-Based Convolutions  
+  A Di Mauro, AS Prasad, Z Huang, M Spallanzani, F Conti, L Benini  
+  2022 IEEE Design, Automation & Test in Europe Conference & Exhibition (DATE)
+
+- A Continuous-Time Input Pipelined SAR ADC with Loop-Embedded Predictive Offset Generation  
+  Zhikai Huang  
+  2022 ETH Zürich Master Thesis
+
 
 
 ## Teaching
