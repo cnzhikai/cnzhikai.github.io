@@ -17,41 +17,40 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 </style>
 
 <div class="small-text">
-<p>- MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration  
-  M Saif, F Jiang, S Lo, A Wang, Z Huang, J Wang, H Liu, C Shih, T Burger, H Wang  
-  2025 IEEE International Solid-State Circuits Conference (ISSCC)</p>
+<p>Marco Saif, Fuze Jiang, Shao-Wei Lo, Adam Y Wang, Zhikai Huang, Jiachen Wang, Hangxing Liu, Chih-Jen Shih, Thomas Burger, Hua Wang; MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration; IEEE International Solid-State Circuits Conference (ISSCC 2025)
+</p>
 
-<p>- A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing  
-  Z Huang, F Jiang, H Liu, Y Kong, Y Sheng, A Wang, D Lee, M Saif, H Wang  
-  2024 IEEE Biomedical Circuits and Systems Conference (BioCAS)</p>
+<p>
+ Zhikai Huang, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang; A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing; 2024 IEEE Biomedical Circuits and Systems Conference (BioCAS)
+</p>
 
-<p>- A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution  
-  M Saif, F Jiang, H Liu, A Wang, Z Huang, Y Sheng, D Lee, T Burger, H Wang  
-  2024 IEEE European Solid-State Electronics Research Conference (ESSERC)</p>
+<p>
+ Marco Saif, Fuze Jiang, Hangxing Liu, Adam Wang, Zhikai Huang, Yuguo Sheng, Dongwon Lee, Thomas Burger, Hua Wang; A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution; 2024 IEEE European Solid-State Electronics Research Conference (ESSERC)
+</p>
 
-<p>- Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters  
-  H Liu, F Jiang, A Wang, Z Huang, Y Kong, M Saif, D Lee, T Burger, J Wang, H Wang  
-  2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Symposium)</p>
+<p>
+ Hangxing Liu, Fuze Jiang, Adam Wang, Zhikai Huang, Ying Kong, Marco Saif, Dongwon Lee, Thomas Burger, Jing Wang, Hua Wang; Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters; 2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)
+</p>
 
-<p>- A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics  
-  H Liu, F Jiang, Y Kong, D Lee, Y Sheng, A Wang, Z Huang, M Saif, T Burger, J Wang, H Wang  
-  2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Symposium)</p>
+<p>
+ Hangxing Liu, Fuze Jiang, Ying Kong, Dongwon Lee, Yuguo Sheng, Adam Wang, Zhikai Huang, Marco Saif, Thomas Burger, Jing Wang, Hua Wang; A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics; 2024 IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)
+</p>
 
-<p>- 17.6 Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing  
-  D Lee, KS Choi, F Jiang, H Liu, D Jung, Y Kong, M Saif, Z Huang, J Wang, H Wang  
-  2024 IEEE International Solid-State Circuits Conference (ISSCC)</p>
+<p>
+ Dongwon Lee, Kyung-Sik Choi, Fuze Jiang, Hangxing Liu, Doohwan Jung, Ying Kong, Marco Saif, Zhikai Huang, Jing Wang, Hua Wang; 17.6 Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing; 2024 IEEE International Solid-State Circuits Conference (ISSCC)
+</p>
 
-<p>- A 256-channel in-pixel electrochemical platform in CMOS for rapid isothermal genetic amplification and screening  
-  H Liu, F Jiang, D Lee, Y Sheng, A Wang, M Saif, Y Kong, Z Huang, T Burger, J Wang, H Wang  
-  2023 IEEE European Solid State Circuits Conference (ESSCIRC)</p>
+<p>
+ Hangxing Liu, Fuze Jiang, Dongwon Lee, Yuguo Sheng, Adam Wang, Marco Saif, Ying Kong, Zhikai Huang, Thomas Burger, Jing Wang, Hua Wang; A 256-channel in-pixel electrochemical platform in CMOS for rapid isothermal genetic amplification and screening; ESSCIRC 2023-IEEE 49th European Solid State Circuits Conference (ESSCIRC)
+</p>
 
-<p>- SNE: An Energy-Proportional Digital Accelerator for Sparse Event-Based Convolutions  
-  A Di Mauro, AS Prasad, Z Huang, M Spallanzani, F Conti, L Benini  
-  2022 IEEE Design, Automation & Test in Europe Conference & Exhibition (DATE)</p>
+<p>
+ Alfio Di Mauro, Arpan Suravi Prasad, Zhikai Huang, Matteo Spallanzani, Francesco Conti, Luca Benini; SNE: an energy-proportional digital accelerator for sparse event-based convolutions; 2022 Design, Automation & Test in Europe Conference & Exhibition (DATE)
+</p>
 
-<p>- A Continuous-Time Input Pipelined SAR ADC with Loop-Embedded Predictive Offset Generation  
-  Zhikai Huang  
-  2022 ETH Zürich Master Thesis</p>
+<p>
+ Zhikai Huang; A Continuous-Time Input Pipelined SAR ADC with Loop-Embedded Predictive Offset Generation; 2022 ETH Zürich Master Thesis
+</p>
 </div>
 
 ## Teaching
