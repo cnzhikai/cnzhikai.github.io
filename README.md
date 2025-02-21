@@ -9,9 +9,36 @@ I am a Ph.D. student in the Integrated Devices, Electronics, and Systems (IDEAS)
 
 Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
-[Publications](#publications) / [Teaching](#teaching) / [Services](#services) / [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
+[Selected Publications](#selpubs) / [Teaching](#teaching) / [Services](#services) / [All Publications](#allpubs)/ [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
 
-## Publications
+## Selected Publications
+
+<style>
+    .small-text {
+        font-size: 0.9em;
+    }
+</style>
+
+<div class="small-text">
+ <u>J</u>ournal, <u>C</u>onference, <u>T</u>hesis, <u>R</u>eports
+ <br><br>
+
+<p>
+  <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang; A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing; 2024 IEEE Biomedical Circuits and Systems Conference (BioCAS)
+</p>
+</div>
+
+## Teaching
+
+- 2024 Fall. Teaching Assistant, Electronic Circuits, ETH Zurich
+
+
+## Services
+
+- Reviewer for IEEE Conferences
+    -  ISCAS (2025)
+
+## All Publications
 
 <style>
     .small-text {
@@ -59,15 +86,7 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 </p>
 </div>
 
-## Teaching
 
-- 2024 Fall. Teaching Assistant, Electronic Circuits, ETH Zurich
-
-
-## Services
-
-- Reviewer for IEEE Conferences
-    -  ISCAS (2025)
 
 
 ---
