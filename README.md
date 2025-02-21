@@ -9,7 +9,7 @@ I am a Ph.D. student in the Integrated Devices, Electronics, and Systems (IDEAS)
 
 Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
-[Selected Publications](#selpubs) / [Teaching](#teaching) / [Services](#services) / [All Publications](#allpubs)/ [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
+[Selected Publications](#selected-publications) / [Teaching](#teaching) / [Services](#services) / [All Publications](#all-publications)/ [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
 
 ## Selected Publications
 
@@ -90,5 +90,5 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
 
 ---
-Last update Nov. 21, 2024;
+Last update Feb. 21, 2025;
 <br><a href="https://info.flagcounter.com/7Kt5"><img src="https://s11.flagcounter.com/count2/7Kt5/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
