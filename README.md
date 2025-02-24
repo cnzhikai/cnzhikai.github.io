@@ -1,5 +1,6 @@
 ***
-[Selected Publications](#selected-publications) · [Teaching](#teaching) · [Services](#services) · [All Publications](#all-publications) · [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
+[Selected Publications](#selected-publications) | [Teaching](#teaching) | [Services](#services) | [All Publications](#all-publications) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
+
 ***
 
 ## About
@@ -8,7 +9,7 @@ I am a Ph.D. student in the Integrated Devices, Electronics, and Systems (IDEAS)
 
 Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
-[Selected Publications](#selected-publications) / [Teaching](#teaching) / [Services](#services) / [All Publications](#all-publications)/ [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
+
 
 ## Selected Publications
 
