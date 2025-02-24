@@ -20,7 +20,7 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 </style>
 
 <div class="small-text">
- <u>J</u>ournal, <u>C</u>onference, <u>T</u>hesis, <u>R</u>eports
+ 
  <br><br>
 
 <p>
