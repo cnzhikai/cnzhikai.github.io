@@ -21,10 +21,9 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
 <div class="small-text">
  
- <br>
 
 <p>
-  <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang; <a href="https://ieeexplore.ieee.org/abstract/document/10798135/">A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing</a> ; 2024 IEEE Biomedical Circuits and Systems Conference (BioCAS)
+  [1] <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang; <a href="https://ieeexplore.ieee.org/abstract/document/10798135/">A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing</a> ; 2024 IEEE Biomedical Circuits and Systems Conference (BioCAS)
 </p>
 </div>
 
