@@ -1,11 +1,7 @@
  
 ## About
 
-I am a Ph.D. student in the Integrated Devices, Electronics, and Systems (IDEAS) group within the Department of Information Technology and Electrical Engineering (D-ITET) at ETH Zurich. My goal is to advance human health and societal well-being by developing innovative biomedical technologies and solutions. My research spans three distinct levels:
-
-- Device Level: I focus on designing and fabricating novel devices using standard microfabrication techniques. These techniques ensure the devices are highly scalable and compatible with existing CMOS or MEMS platforms.
-- Circuit Level: I design circuits to interface with the physical world. By considering all aspects, including device integration, post-processing, and circuit architectures, I achieve the best overall performance through holistic optimization.
-- System Level: I aim to add complexity and functionality at the system level, such as incorporating machine learning, to enhance the capabilities and applications of the developed systems.
+I am a Ph.D. student in the Integrated Devices, Electronics, and Systems (IDEAS) group at ETH Zurich, dedicated to advancing human health through innovative biomedical technologies. My research spans device design using scalable microfabrication techniques compatible with CMOS and MEMS platforms, circuit development for interfacing with the physical world through seamless integration and optimization, and system-level enhancement by incorporating advanced features like machine learning for broader applications.
 
 Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
