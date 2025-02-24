@@ -1,4 +1,5 @@
 ***
+
 [Selected Publications](#selected-publications) | [Teaching](#teaching) | [Services](#services) | [All Publications](#all-publications) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
 
 ***
