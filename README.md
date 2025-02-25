@@ -1,4 +1,4 @@
-[Selected Publications](#selected-publications) | [Teaching](#teaching) | [Services](#services) | [All Publications](#all-publications) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
+[About](#about) | [Teaching](#teaching) | [Services](#services) | [Publications](#all-publications) | [GScholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
 
 
 ## About
@@ -7,23 +7,6 @@ I am a Ph.D. student in the Integrated Devices, Electronics, and Systems (IDEAS)
 
 Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
-
-
-## Selected Publications
-
-<style>
-    .small-text {
-        font-size: 0.9em;
-    }
-</style>
-
-<div class="small-text">
- 
-
-<p>
-  [1] <u>Zhikai Huang</u> et al; <a href="https://ieeexplore.ieee.org/abstract/document/10798135/">A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing</a> ; 2024 IEEE Biomedical Circuits and Systems Conference (BioCAS)
-</p>
-</div>
 
 ## Teaching
 
