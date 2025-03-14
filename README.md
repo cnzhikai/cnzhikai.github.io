@@ -26,7 +26,7 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
         text-align: left;
     }
     .caption {
-        font-size: 8px;
+        font-size: 10px;
         color: gray;
         text-align: center;
     }
