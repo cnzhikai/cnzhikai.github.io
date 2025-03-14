@@ -1,4 +1,4 @@
-[About](#about) | [Gallery](#gallery) | [Teaching](#teaching) | [Services](#services) | [Publications](#all-publications) | [GScholar](https://scholar.google.com/citations?hl=en&user=SiProigAAAAJ)
+[About](#about) | [Gallery](#gallery) | [Teaching](#teaching) | [Services](#services) | [Publications](#all-publications)
 
 
 ## About
