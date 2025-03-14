@@ -9,8 +9,6 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
 ## Gallery
 
-# Image Gallery
-
 <style>
     .gallery {
         display: flex;
@@ -28,7 +26,7 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
         text-align: left;
     }
     .caption {
-        font-size: 14px;
+        font-size: 8px;
         color: gray;
         text-align: center;
     }
