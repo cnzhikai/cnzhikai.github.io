@@ -9,26 +9,26 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
 ## Gallery
 
-# Clickable Image Gallery with Captions
+<div class="image-gallery">
 
 <style>
-    .gallery {
+    .image-gallery {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 10px;
     }
-    .gallery-item {
+    .image-gallery .gallery-item {
         text-align: center;
         width: 200px;
     }
-    .gallery-item img {
+    .image-gallery .gallery-item img {
         width: 200px;
         height: 200px; /* Makes non-square images square */
         object-fit: cover; /* Crops to fit */
         border-radius: 10px; /* Optional rounded corners */
     }
-    .caption {
+    .image-gallery .caption {
         font-size: 14px;
         color: gray;
         margin-top: 5px;
@@ -40,8 +40,10 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
         <a href="https://doi.org/10.1109/BioCAS61083.2024.10798135" target="_blank">
             <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_Microcage.jpg?raw=true">
         </a>
-        <p class="caption"><i>Actuatable Microcage</i>/p>
+        <p class="caption">Actuatable Microcage</p>
     </div>
+</div>
+
 </div>
 
 
