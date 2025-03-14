@@ -9,49 +9,46 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
 ## Gallery
 
-<div class="image-gallery">
+# Image Gallery
 
 <style>
-    .image-gallery {
+    .gallery {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap; /* Allows wrapping when space is insufficient */
         justify-content: center;
         gap: 10px;
     }
-    .image-gallery .gallery-item {
-        text-align: center;
-        width: 200px;
-    }
-    .image-gallery .gallery-item img {
+    .gallery img {
         width: 150px;
         height: 150px; /* Makes non-square images square */
-        object-fit: cover; /* Crops to fit */
-        border-radius: 10px; /* Optional rounded corners */
+        object-fit: cover; /* Prevents distortion, crops excess */
+        border-radius: 10px; /* Optional: Rounded corners */
     }
-    .image-gallery .caption {
+    .gallery-item {
+        text-align: center;
+    }
+    .caption {
         font-size: 14px;
         color: gray;
-        margin-top: 5px;
+        text-align: center;
     }
 </style>
 
 <div class="gallery">
     <div class="gallery-item">
-        <a href="https://doi.org/10.1109/BioCAS61083.2024.10798135" target="_blank">
+        <a href="https://example.com" target="_blank">
             <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_Microcage.jpg?raw=true">
         </a>
-        <p class="caption">Actuatable Microcage</p>
+        <p class="caption">Figure 1: Description</p>
     </div>
-    
     <div class="gallery-item">
-        <a href="https://doi.org/10.1109/BioCAS61083.2024.10798135" target="_blank">
+        <a href="https://example.com" target="_blank">
             <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_Microcage.jpg?raw=true">
         </a>
-        <p class="caption">Actuatable Microcage</p>
+        <p class="caption">Figure 1: Description</p>
     </div>
 </div>
 
-</div>
 
 
 ## Teaching
