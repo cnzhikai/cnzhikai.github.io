@@ -15,7 +15,7 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
     .gallery {
         display: flex;
         flex-wrap: wrap; /* Allows wrapping when space is insufficient */
-        justify-content: center;
+        justify-content: flex-start;
         gap: 10px;
     }
     .gallery img {
@@ -25,7 +25,7 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
         border-radius: 10px; /* Optional: Rounded corners */
     }
     .gallery-item {
-        text-align: center;
+        text-align: left;
     }
     .caption {
         font-size: 14px;
@@ -36,16 +36,16 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 
 <div class="gallery">
     <div class="gallery-item">
-        <a href="https://example.com" target="_blank">
+        <a href="https://doi.org/10.1109/BioCAS61083.2024.10798135" target="_blank">
             <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_Microcage.jpg?raw=true">
         </a>
-        <p class="caption">Figure 1: Description</p>
+        <p class="caption">An Actuatable Microcage</p>
     </div>
     <div class="gallery-item">
-        <a href="https://example.com" target="_blank">
-            <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_Microcage.jpg?raw=true">
+        <a href="https://doi.org/10.1109/VLSITechnologyandCir46783.2024.10631420" target="_blank">
+            <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_MUE.png?raw=true">
         </a>
-        <p class="caption">Figure 1: Description</p>
+        <p class="caption">Multie-Use-Electrode Array</p>
     </div>
 </div>
 
