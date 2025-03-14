@@ -23,8 +23,8 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
         width: 200px;
     }
     .image-gallery .gallery-item img {
-        width: 200px;
-        height: 200px; /* Makes non-square images square */
+        width: 150px;
+        height: 150px; /* Makes non-square images square */
         object-fit: cover; /* Crops to fit */
         border-radius: 10px; /* Optional rounded corners */
     }
@@ -36,6 +36,13 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 </style>
 
 <div class="gallery">
+    <div class="gallery-item">
+        <a href="https://doi.org/10.1109/BioCAS61083.2024.10798135" target="_blank">
+            <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_Microcage.jpg?raw=true">
+        </a>
+        <p class="caption">Actuatable Microcage</p>
+    </div>
+    
     <div class="gallery-item">
         <a href="https://doi.org/10.1109/BioCAS61083.2024.10798135" target="_blank">
             <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_Microcage.jpg?raw=true">
