@@ -35,7 +35,7 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
 <div class="gallery">
     <div class="gallery-item">
         <a href="https://doi.org/10.1109/BioCAS61083.2024.10798135" target="_blank">
-            <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_Microcage.jpg?raw=true">
+            <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_AMicrocage.jpg?raw=true">
         </a>
         <p class="caption">An Actuatable Microcage</p>
     </div>
