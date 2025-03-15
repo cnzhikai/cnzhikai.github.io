@@ -17,8 +17,8 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
         gap: 10px;
     }
     .gallery img {
-        width: 150px;
-        height: 150px; /* Makes non-square images square */
+        width: 130px;
+        height: 130px; /* Makes non-square images square */
         object-fit: cover; /* Prevents distortion, crops excess */
         border-radius: 10px; /* Optional: Rounded corners */
     }
@@ -37,13 +37,13 @@ Feel free to contact me at zhhuang@ethz.ch for any inquiries.
         <a href="https://doi.org/10.1109/BioCAS61083.2024.10798135" target="_blank">
             <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_AMicrocage.jpg?raw=true">
         </a>
-        <p class="caption">An Actuatable Microcage</p>
+        <p class="caption">An Actuatable Microcage (2024)</p>
     </div>
     <div class="gallery-item">
         <a href="https://doi.org/10.1109/VLSITechnologyandCir46783.2024.10631420" target="_blank">
             <img src="https://github.com/cnzhikai/cnzhikai.github.io/blob/main/images/250314_SEM_MUE.png?raw=true">
         </a>
-        <p class="caption">Multie-Use-Electrode Array</p>
+        <p class="caption">Multie-Use-Electrode Array (2024)</p>
     </div>
 </div>
 
