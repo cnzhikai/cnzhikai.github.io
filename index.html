@@ -8,9 +8,7 @@
   <style>
     :root { --max: 1000px; }
 
-    html {
-      scroll-behavior: smooth; /* optional but nice */
-    }
+    html { scroll-behavior: smooth; }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -38,7 +36,6 @@
       gap: 16px;
       flex-wrap: wrap;
     }
-	
 
     .title {
       font-size: 20px;
@@ -66,14 +63,10 @@
       white-space: nowrap;
     }
 
-    .nav a:hover {
-      background: #eef2ff;
-    }
+    .nav a:hover { background: #eef2ff; }
 
     /* ===== Anchor offset for sticky header ===== */
-    h1, h2, h3 {
-      scroll-margin-top: 72px; /* >= header height */
-    }
+    h1, h2, h3 { scroll-margin-top: 72px; }
 
     /* ===== Main content ===== */
     main {
@@ -82,23 +75,10 @@
       padding: 0px 16px 80px;
     }
 
-    h1 {
-      font-size: 30px;
-      margin-top: 0;
-    }
-
-    h2 {
-      margin-top: 20px;
-      font-size: 22px;
-    }
-
-    p {
-      margin-top: 10px;
-    }
-
-    ul {
-      padding-left: 22px;
-    }
+    h1 { font-size: 30px; margin-top: 0; }
+    h2 { margin-top: 20px; font-size: 22px; }
+    p { margin-top: 10px; }
+    ul { padding-left: 22px; }
 
     table {
       width: 100%;
@@ -113,9 +93,7 @@
       vertical-align: top;
     }
 
-    th {
-      background: #f2f4f7;
-    }
+    th { background: #f2f4f7; }
 
     .pill {
       display: inline-block;
@@ -144,19 +122,52 @@
       margin-top: 40px;
     }
 
-	.pub-list {
-      list-style: none;      /* 🔴 去掉前面的点 */
-      padding-left: 0;       /* 🔴 去掉左侧缩进 */
-	  margin-top: 8px;
-	}
+    .pub-list {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 8px;
+    }
 
-	.pub-list li {
-	  margin-bottom: 14px;   /* 可选：增加条目间距 */
-	}
+    .pub-list li { margin-bottom: 14px; }
 
+    /* ===== About layout (avatar on the left) ===== */
+    .about-wrap{
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      margin-top: 8px;
+    }
 
+    .avatar{
+      width: 150px;
+      height: 150px;
+      border-radius: 14px;      /* 你想圆形就改成 999px */
+      object-fit: cover;
+      border: 1px solid #e6e8ee;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      flex: 0 0 auto;
+      background: #f6f7fb;
+    }
 
+    .about-text{
+      flex: 1 1 auto;
+      min-width: 0;
+    }
 
+    /* Mobile: stack */
+    @media (max-width: 640px){
+      .about-wrap{
+        flex-direction: column;
+        align-items: center;
+      }
+      .about-text{
+        width: 100%;
+      }
+      .avatar{
+        width: 160px;
+        height: 160px;
+      }
+    }
 
     /* ===== Back to top button ===== */
     #backToTop {
@@ -174,11 +185,7 @@
       box-shadow: 0 6px 16px rgba(0,0,0,0.15);
     }
 
-    #backToTop:hover {
-      background: #1f235c;
-    }
-	
-	
+    #backToTop:hover { background: #1f235c; }
   </style>
 </head>
 
@@ -200,16 +207,23 @@
 <main>
 
   <h2 id="about">About</h2>
-    I am a Ph.D. student in Information Technology and Electrical
-    Engineering at <a href="https://ethz.ch/en.html">ETH Zürich</a>, working in the <a href="https://ideas.ethz.ch/">Integrated Devices, Electronics,
-    and Systems (IDEAS) Group</a>
-	 under the supervision of Prof. Dr. Hua Wang.
-    Prior to my PhD, I obtained my M.Sc. in Biomedical Engineering at ETH Zurich,
-    a B.Eng. in Microelectronics from Xi’an Jiaotong University, and was a visiting
-    research intern at the Department of Physics at McGill University. Feel free to reach out for any questions or collaboration opportunities.
 
+  <!-- ✅ About with avatar on the left -->
+  <div class="about-wrap">
+    <!-- 把图片路径换成你的头像路径 -->
+    <img class="avatar" src="Zhikai_Photo.png" alt="Zhikai Huang portrait" />
 
-
+    <div class="about-text">
+      I am a Ph.D. student in Information Technology and Electrical
+      Engineering at <a href="https://ethz.ch/en.html">ETH Zürich</a>, working in the
+      <a href="https://ideas.ethz.ch/">Integrated Devices, Electronics, and Systems (IDEAS) Group</a>
+      under the supervision of Prof. Dr. Hua Wang.
+      Prior to my PhD, I obtained my M.Sc. in Biomedical Engineering at ETH Zurich,
+      a B.Eng. in Microelectronics from Xi’an Jiaotong University, and was a visiting
+      research intern at the Department of Physics at McGill University.
+      Feel free to reach out for any questions or collaboration opportunities.
+    </div>
+  </div>
 
   <h2 id="research">Research</h2>
   I am mainly interested in the following three areas:
@@ -219,125 +233,125 @@
       <span class="pill">ISSCC (2026)</span><span class="pill">BioCAS (2024)</span><br/>
       Extending 2D chip interface to 3D world through electronics, monolithic/hetergeneous integration, and system co-design.
     </li>
-	
+
     <li>
       <strong>Biomedical Integrated Circuits</strong>
       <span class="pill">VLSI (2024)</span><span class="pill">ESSERC (2024)</span><br/>
       Development of CMOS integrated circuits for cellular/molecular sensing and actuation.
     </li>
-	
-	<li>
+
+    <li>
       <strong>Machine Learning at Edge</strong>
       <span class="pill">DATE (2022)</span><br/>
       Enhancing large-scale data handling with analog in-sensor computing, or digital machine learning acceleartion.
     </li>
   </ul>
 
+  <h2 id="publications">Publications</h2>
+  <strong>Conference Papers</strong>
 
-	<h2 id="publications">Publications</h2>
-	<strong>Conference Papers</strong>
+  <ul class="pub-list">
+    <li>
+      [9] <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Adam Wang, Yuguo Sheng, Marco Saif, Hua Wang,
+      "Shape-Memory Multi-Size Micro-Cage Array on CMOS with Integrated Electrochemical Sensors for Joint Bio-Sample Manipulation and Sensing",
+      <i>2026 IEEE International Solid-State Circuits Conference (ISSCC 2026)</i>
+    </li>
 
-	<ul class="pub-list">
-		  <li>
-			[9] <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Adam Wang, Yuguo Sheng, Marco Saif, Hua Wang,
-			"Shape-Memory Multi-Size Micro-Cage Array on CMOS with Integrated Electrochemical Sensors for Joint Bio-Sample Manipulation and Sensing",
-			<i>2026 IEEE International Solid-State Circuits Conference (ISSCC 2026)</i>
-		  </li>
+    <li>
+      [8] Marco Saif, Fuze Jiang, Shao-Wei Lo, Adam Y. Wang, <u>Zhikai Huang</u>, Jiachen Wang, Hangxing Liu, Chih-Jen Shih, Thomas Burger, Hua Wang,
+      "MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration",
+      <i>2025 IEEE International Solid-State Circuits Conference (ISSCC 2025)</i>
+    </li>
 
-		  <li>
-			[8] Marco Saif, Fuze Jiang, Shao-Wei Lo, Adam Y. Wang, <u>Zhikai Huang</u>, Jiachen Wang, Hangxing Liu, Chih-Jen Shih, Thomas Burger, Hua Wang,
-			"MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration",
-			<i>2025 IEEE International Solid-State Circuits Conference (ISSCC 2025)</i>
-		  </li>
+    <li>
+      [7] <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang,
+      "A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing",
+      <i>2024 IEEE Biomedical Circuits and Systems Conference (BioCAS 2024)</i>
+    </li>
 
-		  <li>
-			[7] <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang,
-			"A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing",
-			<i>2024 IEEE Biomedical Circuits and Systems Conference (BioCAS 2024)</i>
-		  </li>
+    <li>
+      [6] Marco Saif, Fuze Jiang, Hangxing Liu, Adam Wang, <u>Zhikai Huang</u>, Yuguo Sheng, Dongwon Lee, Thomas Burger, Hua Wang,
+      "A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution",
+      <i>2024 IEEE European Solid-State Electronics Research Conference (ESSERC 2024)</i>
+    </li>
 
-		  <li>
-			[6] Marco Saif, Fuze Jiang, Hangxing Liu, Adam Wang, <u>Zhikai Huang</u>, Yuguo Sheng, Dongwon Lee, Thomas Burger, Hua Wang,
-			"A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution",
-			<i>2024 IEEE European Solid-State Electronics Research Conference (ESSERC 2024)</i>
-		  </li>
+    <li>
+      [5] Hangxing Liu, Fuze Jiang, Adam Wang, <u>Zhikai Huang</u>, Ying Kong, Marco Saif, Dongwon Lee, Thomas Burger, Jing Wang, Hua Wang,
+      "Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters",
+      <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
+    </li>
 
-		  <li>
-			[5] Hangxing Liu, Fuze Jiang, Adam Wang, <u>Zhikai Huang</u>, Ying Kong, Marco Saif, Dongwon Lee, Thomas Burger, Jing Wang, Hua Wang,
-			"Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters",
-			<i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
-		  </li>
+    <li>
+      [4] Hangxing Liu, Fuze Jiang, Ying Kong, Dongwon Lee, Yuguo Sheng, Adam Wang, <u>Zhikai Huang</u>, Marco Saif, Thomas Burger, Jing Wang, Hua Wang,
+      "A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics",
+      <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
+    </li>
 
-		  <li>
-			[4] Hangxing Liu, Fuze Jiang, Ying Kong, Dongwon Lee, Yuguo Sheng, Adam Wang, <u>Zhikai Huang</u>, Marco Saif, Thomas Burger, Jing Wang, Hua Wang,
-			"A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics",
-			<i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
-		  </li>
+    <li>
+      [3] Dongwon Lee, Kyung-Sik Choi, Fuze Jiang, Hangxing Liu, Doohwan Jung, Ying Kong, Marco Saif, <u>Zhikai Huang</u>, Jing Wang, Hua Wang,
+      "Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing",
+      <i>2024 IEEE International Solid-State Circuits Conference (ISSCC 2024)</i>
+    </li>
 
-		  <li>
-			[3] Dongwon Lee, Kyung-Sik Choi, Fuze Jiang, Hangxing Liu, Doohwan Jung, Ying Kong, Marco Saif, <u>Zhikai Huang</u>, Jing Wang, Hua Wang,
-			"Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing",
-			<i>2024 IEEE International Solid-State Circuits Conference (ISSCC 2024)</i>
-		  </li>
+    <li>
+      [2] Hangxing Liu, Fuze Jiang, Dongwon Lee, Yuguo Sheng, Adam Wang, Marco Saif, Ying Kong, <u>Zhikai Huang</u>, Thomas Burger, Jing Wang, Hua Wang,
+      "A 256-Channel In-Pixel Electrochemical Platform in CMOS for Rapid Isothermal Genetic Amplification and Screening",
+      <i>2023 IEEE 49th European Solid-State Circuits Conference (ESSCIRC 2023)</i>
+    </li>
 
-		  <li>
-			[2] Hangxing Liu, Fuze Jiang, Dongwon Lee, Yuguo Sheng, Adam Wang, Marco Saif, Ying Kong, <u>Zhikai Huang</u>, Thomas Burger, Jing Wang, Hua Wang,
-			"A 256-Channel In-Pixel Electrochemical Platform in CMOS for Rapid Isothermal Genetic Amplification and Screening",
-			<i>2023 IEEE 49th European Solid-State Circuits Conference (ESSCIRC 2023)</i>
-		  </li>
+    <li>
+      [1] Alfio Di Mauro, Arpan Suravi Prasad, <u>Zhikai Huang</u>, Matteo Spallanzani, Francesco Conti, Luca Benini,
+      "SNE: An Energy-Proportional Digital Accelerator for Sparse Event-Based Convolutions",
+      <i>2022 Design, Automation & Test in Europe Conference & Exhibition (DATE 2022)</i>
+    </li>
+  </ul>
 
-		  <li>
-			[1] Alfio Di Mauro, Arpan Suravi Prasad, <u>Zhikai Huang</u>, Matteo Spallanzani, Francesco Conti, Luca Benini,
-			"SNE: An Energy-Proportional Digital Accelerator for Sparse Event-Based Convolutions",
-			<i>2022 Design, Automation & Test in Europe Conference & Exhibition (DATE 2022)</i>
-		  </li>
-	</ul>
-
-	<strong>Thesis</strong>
-	<ul class="pub-list">
-		  <li>
-			[2] <u>Zhikai Huang</u>, "A Continuous-Time Input Pipelined SAR ADC with Loop-Embedded Predictive Offset Generation", <i>2022 Master of Science in Biomedical Engineering Thesis at ETH Zurich</i>
-		  </li>
-		  <li>
-			[1] <u>Zhikai Huang</u>, "A Battery State-of-Charge Estimation ASIC without Current Dectection", <i>2019 Bachelor of Engineering in Microelectronics Thesis at Xi'an Jiaotong University</i>
-		  </li>
-	</ul>
-
+  <strong>Thesis</strong>
+  <ul class="pub-list">
+    <li>
+      [2] <u>Zhikai Huang</u>, "A Continuous-Time Input Pipelined SAR ADC with Loop-Embedded Predictive Offset Generation",
+      <i>2022 Master of Science in Biomedical Engineering Thesis at ETH Zurich</i>
+    </li>
+    <li>
+      [1] <u>Zhikai Huang</u>, "A Battery State-of-Charge Estimation ASIC without Current Dectection",
+      <i>2019 Bachelor of Engineering in Microelectronics Thesis at Xi'an Jiaotong University</i>
+    </li>
+  </ul>
 
   <h2 id="teaching">Teaching</h2>
   <strong>Lectures</strong>
-	<ul>
-		  <li>
-			2025 Fall, Teaching Assistant, 227-0153-00L: CMOS Electronics for Biological and Molecular Sensing (Master Course), ETH Zurich.
-		  </li>
-		  <li>
-			2024 Fall, Teaching Assistant, 227-0077-10L: Electronic Circuits (Bachelor Course), ETH Zurich.
-		  </li>
-	</ul>
-	
-	
-	<strong>Mentoring</strong>
-	<ul>
-		  <li>
-			 Noelle Held, "Comparative Study on the Performance of Planar Microelectrodes and 3D Shell Electrodes for Biological Interfacing",<i> 2025 Spring Bachelor Thesis at ETH Zurich </i>
-		  </li>
-		  <li>
-			Joel Kiener, Julian Steiner and Mischa Vasylyev, "Cell Recognition with a Custom-Designed CMOS Biosensor Array", <i>2025 Spring Bachelor Group Project at ETH Zurich</i>
-		  </li>
-	</ul>
+  <ul>
+    <li>
+      2025 Fall, Teaching Assistant, 227-0153-00L: CMOS Electronics for Biological and Molecular Sensing (Master Course), ETH Zurich.
+    </li>
+    <li>
+      2024 Fall, Teaching Assistant, 227-0077-10L: Electronic Circuits (Bachelor Course), ETH Zurich.
+    </li>
+  </ul>
+
+  <strong>Mentoring</strong>
+  <ul>
+    <li>
+      Noelle Held, "Comparative Study on the Performance of Planar Microelectrodes and 3D Shell Electrodes for Biological Interfacing",
+      <i> 2025 Spring Bachelor Thesis at ETH Zurich </i>
+    </li>
+    <li>
+      Joel Kiener, Julian Steiner and Mischa Vasylyev, "Cell Recognition with a Custom-Designed CMOS Biosensor Array",
+      <i>2025 Spring Bachelor Group Project at ETH Zurich</i>
+    </li>
+  </ul>
 
   <h2 id="services">Services</h2>
   <strong>Conference Reviewer</strong>
   <ul>
-    <li>
-      IEEE International Symposium on Circuits and Systems (ISCAS)
-    </li>
+    <li>IEEE International Symposium on Circuits and Systems (ISCAS)</li>
   </ul>
-
 
   <footer>
     <p>
-      <script type="text/javascript" src="https://counter.websiteout.com/js/21/10/317/1"></script> | Last Update: 2025/12/27 | <a href="https://github.com/cnzhikai/cnzhikai.github.io">Admin</a>
+      <script type="text/javascript" src="https://counter.websiteout.com/js/21/10/317/1"></script>
+      | Last Update: 2025/12/27 |
+      <a href="https://github.com/cnzhikai/cnzhikai.github.io">Admin</a>
     </p>
   </footer>
 
