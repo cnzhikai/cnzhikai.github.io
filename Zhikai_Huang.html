@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Zhikai Huang (黄志凯)</title>
+
+  <style>
+    :root { --max: 1000px; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0; color:#111; line-height: 1.6;
+    }
+
+    /* ===== Top navigation ===== */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: #ffffff;
+      border-bottom: 1px solid #e6e8ee;
+    }
+    .nav {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 12px 16px;
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .nav a {
+      text-decoration: none;
+      color: #2b2f77;
+      font-size: 14px;
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+    .nav a:hover {
+      background: #eef2ff;
+    }
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-right: 12px;
+    }
+
+    /* ===== Main content ===== */
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 28px 16px 80px;
+    }
+    h1 { font-size: 30px; margin-top: 0; }
+    h2 { margin-top: 40px; font-size: 22px; }
+    p { margin-top: 10px; }
+    ul { padding-left: 22px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #dfe3ea;
+      padding: 10px;
+      vertical-align: top;
+    }
+    th { background: #f2f4f7; }
+
+    .pill {
+      display:inline-block;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background:#eef2ff;
+      border:1px solid #d8ddff;
+      color:#2b2f77;
+      margin-left: 6px;
+    }
+
+    .note {
+      font-size: 14px;
+      color:#333;
+      background:#fff7e6;
+      border:1px solid #ffe2a6;
+      padding: 12px 14px;
+      border-radius: 10px;
+      margin-top: 14px;
+    }
+
+    /* ===== Back to top button ===== */
+    #backToTop {
+      position: fixed;
+      right: 22px;
+      bottom: 26px;
+      background: #2b2f77;
+      color: #fff;
+      border: none;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      display: none;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    #backToTop:hover {
+      background: #1f235c;
+    }
+
+    footer {
+      font-size: 12px;
+      color:#555;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav class="nav">
+    <span class="title">Zhikai Huang (黄志凯)</span>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#single-cell">Single-cell Microtools</a>
+      <a href="#organoids">Organoids & Tissues</a>
+      <a href="#biopsy">Clinical Biopsy</a>
+      <a href="#trend">Emerging Trend</a>
+      <a href="#summary-table">Summary Table</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <h1 id="about">About</h1>
+  <p>
+    I am a Ph.D. student in Department of Information Technology and Electrical Engineering (D-ITET) at ETH Zürich, working in Integrated Devices, Electronics, and Systems (IDEAS) Group under supervison of Prof. Dr. Hua Wang. Prior to my PhD, I obtained my M.Sc. in Biomedical Engineering at ETH Zurich, B.Eng. in Microelectronics from Xi’an Jiaotong University, and was a visiting research intern at physics department at McGill University.
+
+	Feel free to reach out for any questions or collaboration opportunites.
+  </p>
+
+  <h2 id="single-cell">Single-cell Capture Microtools</h2>
+  <ul>
+    <li>
+      <strong>Untethered single-cell microgrippers for active biopsy</strong>
+      <span class="pill">Nano Letters (2020)</span><br/>
+      Magnetically guided, thermally actuated microgrippers capable of excising and
+      capturing individual cells from confined environments.
+    </li>
+    <li>
+      <strong>Soft hydrogel microgripper using microactuators</strong>
+      <span class="pill"><a href="https://www.w3schools.com">Visit W3Schools</a></span><br/>
+      Thermoresponsive PNIPAAm-based grippers enabling gentle capture and release
+      of fragile living cells.
+    </li>
+    <li>
+      <strong>Self-assembled microcages for selective cell capture</strong>
+      <span class="pill">Optics Express (2021)</span><br/>
+      Self-assembled microcage structures that confine individual cells without
+      continuous external force.
+    </li>
+  </ul>
+
+  <h2 id="organoids">Organoids and Tissue Engineering Manipulation</h2>
+  <ul>
+    <li>
+      <strong>Microfluidic trapping of intestinal organoids</strong>
+      <span class="pill">Micromachines (2022)</span><br/>
+      Geometric trapping with perfusion bypass to immobilize organoids while avoiding
+      pressure-induced deformation.
+    </li>
+    <li>
+      <strong>3D-printed compliant micro-tweezers</strong>
+      <span class="pill">Micromachines (2021)</span><br/>
+      High-resolution micro-tweezers for pick-and-place manipulation of soft organoids
+      and spheroids.
+    </li>
+    <li>
+      <strong>Magnetically actuated microcages</strong>
+      <span class="pill">Frontiers in Bioengineering & Biotechnology (2023)</span><br/>
+      Magnetic nanoparticle-doped microcages enabling remote cell entrapment and
+      3D organization.
+    </li>
+  </ul>
+
+  <h2 id="biopsy">Minimally Invasive Biopsy and Clinical Translation</h2>
+  <ul>
+    <li>
+      <strong>Untethered microgrippers for upper urinary tract biopsy</strong>
+      <span class="pill">Advanced Healthcare Materials (2024)</span><br/>
+      Catheter-deliverable microgrippers actuated near body temperature and retrieved
+      magnetically for minimally invasive tissue sampling.
+    </li>
+  </ul>
+
+  <h2 id="trend">Emerging Trend</h2>
+  <div class="note">
+    Integration of microfabrication, soft materials, and remote actuation
+    (magnetic, thermal, optical) with robotic micromanipulation is enabling
+    standardized assembly and positioning of organoids and tissues for
+    reproducible drug screening and disease modeling.
+  </div>
+
+  <h2 id="summary-table">Summary Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Category</th>
+        <th>Representative Work</th>
+        <th>Core Mechanism</th>
+        <th>Sample Scale</th>
+        <th>Biomedical Impact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Untethered microgrippers</td>
+        <td>Jin et al., Nano Lett. (2020)</td>
+        <td>Magnetic guidance + thermal folding</td>
+        <td>Single cells / micro-tissues</td>
+        <td>Single-cell biopsy, targeted sampling</td>
+      </tr>
+      <tr>
+        <td>Soft hydrogel microgrippers</td>
+        <td>Kodera et al., Micromachines (2022)</td>
+        <td>Thermoresponsive actuation</td>
+        <td>Single cells</td>
+        <td>Gentle live-cell manipulation</td>
+      </tr>
+      <tr>
+        <td>Microfluidic traps</td>
+        <td>Matsumoto et al., Micromachines (2022)</td>
+        <td>Geometric trapping + perfusion bypass</td>
+        <td>Organoids</td>
+        <td>Organoid culture and fusion</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    <p>
+      If you want, I can further refine this into a journal-style review or
+      add citations, DOIs, and quantitative performance metrics.
+    </p>
+  </footer>
+
+</main>
+
+<button id="backToTop" onclick="scrollToTop()">↑ Top</button>
+
+<script>
+  const btn = document.getElementById("backToTop");
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+</script>
+
+</body>
+</html>
