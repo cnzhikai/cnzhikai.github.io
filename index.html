@@ -1,12 +1,10 @@
 <!doctype html>
-
 <html lang="en">
 <head>
 
   <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-
   <script>LA.init({id:"JsE1nG9OlmeP5IDa",ck:"JsE1nG9OlmeP5IDa"})</script>
-
+  
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Zhikai Huang (黄志凯)</title>
@@ -242,6 +240,42 @@
       main { margin-left: 8px; margin-right: 8px; padding-left: 16px; padding-right: 16px; }
     }
 
+    /* ===== Code-editor inspired line-number gutter ===== */
+    main { position: relative; padding-left: clamp(72px, 9vw, 104px); }
+    .line-gutter {
+      position: absolute;
+      inset: 0 auto 0 17px;
+      width: 49px;
+      pointer-events: none;
+      user-select: none;
+      border-right: 1px solid rgba(29, 122, 145, 0.18);
+      background: linear-gradient(90deg, rgba(19, 114, 143, 0.025), transparent);
+      overflow: hidden;
+    }
+    .line-number {
+      position: absolute;
+      right: 12px;
+      color: #a0b3c1;
+      font: 500 11px/1.3 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      letter-spacing: .02em;
+      white-space: nowrap;
+      transition: color 150ms ease;
+    }
+    main:hover .line-number:nth-child(5n+1) { color: #4d93a2; }
+    main h2 { transition: color 180ms ease, text-shadow 180ms ease; }
+    main h2:hover { color: #087d91; text-shadow: 0 0 20px rgba(25, 166, 174, .15); }
+    main h2::before { box-shadow: 0 0 13px rgba(25, 150, 165, .25); }
+    main li::marker { color: #228c9b; }
+    @media (max-width: 700px) {
+      main { padding-left: 59px; }
+      .line-gutter { left: 7px; width: 37px; }
+      .line-number { right: 7px; font-size: 10px; }
+    }
+    @media (max-width: 380px) {
+      main { padding-left: 53px; }
+      .line-gutter { left: 5px; width: 33px; }
+    }
+
     /* ===== Back to top button ===== */
     #backToTop {
       position: fixed;
@@ -267,7 +301,6 @@
       *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
     }
   </style>
-
 </head>
 
 <body>
@@ -288,26 +321,25 @@
 </header>
 
 <main>
+  <div class="line-gutter" id="lineGutter" aria-hidden="true"></div>
 
   <h2 id="about">About</h2>
 
   <!-- ✅ About with avatar on the left -->
-
   <div class="about-wrap">
     <!-- 把图片路径换成你的头像路径 -->
     <img class="avatar" src="Zhikai_Photo.png" alt="Zhikai Huang portrait" />
 
-<div class="about-text">
-  I am a Ph.D. student in Information Technology and Electrical
-  Engineering at <a href="https://ethz.ch/en.html">ETH Zürich</a>, working in the
-  <a href="https://ideas.ethz.ch/">Integrated Devices, Electronics, and Systems (IDEAS) Group</a>
-  under the supervision of Prof. Dr. Hua Wang.
-  Prior to my PhD, I obtained my M.Sc. in Biomedical Engineering at ETH Zurich,
-  a B.Eng. in Microelectronics from Xi’an Jiaotong University, and was a visiting
-  research intern at the Department of Physics at McGill University.
-  Feel free to reach out for any questions or collaboration opportunities.
-</div>
-
+    <div class="about-text">
+      I am a Ph.D. student in Information Technology and Electrical
+      Engineering at <a href="https://ethz.ch/en.html">ETH Zürich</a>, working in the
+      <a href="https://ideas.ethz.ch/">Integrated Devices, Electronics, and Systems (IDEAS) Group</a>
+      under the supervision of Prof. Dr. Hua Wang.
+      Prior to my PhD, I obtained my M.Sc. in Biomedical Engineering at ETH Zurich,
+      a B.Eng. in Microelectronics from Xi’an Jiaotong University, and was a visiting
+      research intern at the Department of Physics at McGill University.
+      Feel free to reach out for any questions or collaboration opportunities.
+    </div>
   </div>
 
   <h2 id="research">Research</h2>
@@ -319,18 +351,17 @@
       Development of scalable sensing and actuation interfaces on integrated circuit platforms for applications in life sciences and biotechnology, with a particular focus on 3D bio-CMOS interfaces.
     </li>
 
-<li>
-  <strong>Analog-/Mixed-Signal Integrated Circuits</strong>
-  <span class="pill">VLSI (2024)</span><span class="pill">ESSERC (2024)</span><br/>
-  Development of precision analog, mixed-signal integrated circuits for large-scale sensing and actuation array, with a particular focus on electrochemical analog front-end circuits. 
-</li>
+    <li>
+      <strong>Analog-/Mixed-Signal Integrated Circuits</strong>
+      <span class="pill">VLSI (2024)</span><span class="pill">ESSERC (2024)</span><br/>
+      Development of precision analog, mixed-signal integrated circuits for large-scale sensing and actuation array, with a particular focus on electrochemical analog front-end circuits. 
+    </li>
 
-<li>
-  <strong>Machine Learning at Edge</strong>
-  <span class="pill">DATE (2022)</span><br/>
-  Improving data and energy efficiency through analog in-sensor computing and/or digital hardware acceleration.
-</li>
-
+    <li>
+      <strong>Machine Learning at Edge</strong>
+      <span class="pill">DATE (2022)</span><br/>
+      Improving data and energy efficiency through analog in-sensor computing and/or digital hardware acceleration.
+    </li>
   </ul>
 
   <h2 id="publications">Publications</h2>
@@ -342,8 +373,8 @@
       <i>IEEE Journal of Solid-State Circuits, vol. 61, no. 9, pp. 4841-4853, Sept. 2026</i>
     </li>
    </ul>
-
-<strong>Conference Papers</strong>
+     
+  <strong>Conference Papers</strong>
 
   <ul class="pub-list">
     <li>
@@ -352,58 +383,56 @@
       <i>2026 IEEE International Solid-State Circuits Conference (ISSCC 2026)</i>
     </li>
 
-<li>
-  [8] Marco Saif, Fuze Jiang, Shao-Wei Lo, Adam Y. Wang, <u>Zhikai Huang</u>, Jiachen Wang, Hangxing Liu, Chih-Jen Shih, Thomas Burger, Hua Wang,
-  "MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration",
-  <i>2025 IEEE International Solid-State Circuits Conference (ISSCC 2025)</i>
-</li>
+    <li>
+      [8] Marco Saif, Fuze Jiang, Shao-Wei Lo, Adam Y. Wang, <u>Zhikai Huang</u>, Jiachen Wang, Hangxing Liu, Chih-Jen Shih, Thomas Burger, Hua Wang,
+      "MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration",
+      <i>2025 IEEE International Solid-State Circuits Conference (ISSCC 2025)</i>
+    </li>
 
-<li>
-  [7] <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang,
-  "A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing",
-  <i>2024 IEEE Biomedical Circuits and Systems Conference (BioCAS 2024)</i>
-</li>
+    <li>
+      [7] <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang,
+      "A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing",
+      <i>2024 IEEE Biomedical Circuits and Systems Conference (BioCAS 2024)</i>
+    </li>
 
-<li>
-  [6] Marco Saif, Fuze Jiang, Hangxing Liu, Adam Wang, <u>Zhikai Huang</u>, Yuguo Sheng, Dongwon Lee, Thomas Burger, Hua Wang,
-  "A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution",
-  <i>2024 IEEE European Solid-State Electronics Research Conference (ESSERC 2024)</i>
-</li>
+    <li>
+      [6] Marco Saif, Fuze Jiang, Hangxing Liu, Adam Wang, <u>Zhikai Huang</u>, Yuguo Sheng, Dongwon Lee, Thomas Burger, Hua Wang,
+      "A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution",
+      <i>2024 IEEE European Solid-State Electronics Research Conference (ESSERC 2024)</i>
+    </li>
 
-<li>
-  [5] Hangxing Liu, Fuze Jiang, Adam Wang, <u>Zhikai Huang</u>, Ying Kong, Marco Saif, Dongwon Lee, Thomas Burger, Jing Wang, Hua Wang,
-  "Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters",
-  <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
-</li>
+    <li>
+      [5] Hangxing Liu, Fuze Jiang, Adam Wang, <u>Zhikai Huang</u>, Ying Kong, Marco Saif, Dongwon Lee, Thomas Burger, Jing Wang, Hua Wang,
+      "Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters",
+      <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
+    </li>
 
-<li>
-  [4] Hangxing Liu, Fuze Jiang, Ying Kong, Dongwon Lee, Yuguo Sheng, Adam Wang, <u>Zhikai Huang</u>, Marco Saif, Thomas Burger, Jing Wang, Hua Wang,
-  "A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics",
-  <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
-</li>
+    <li>
+      [4] Hangxing Liu, Fuze Jiang, Ying Kong, Dongwon Lee, Yuguo Sheng, Adam Wang, <u>Zhikai Huang</u>, Marco Saif, Thomas Burger, Jing Wang, Hua Wang,
+      "A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics",
+      <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
+    </li>
 
-<li>
-  [3] Dongwon Lee, Kyung-Sik Choi, Fuze Jiang, Hangxing Liu, Doohwan Jung, Ying Kong, Marco Saif, <u>Zhikai Huang</u>, Jing Wang, Hua Wang,
-  "Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing",
-  <i>2024 IEEE International Solid-State Circuits Conference (ISSCC 2024)</i>
-</li>
+    <li>
+      [3] Dongwon Lee, Kyung-Sik Choi, Fuze Jiang, Hangxing Liu, Doohwan Jung, Ying Kong, Marco Saif, <u>Zhikai Huang</u>, Jing Wang, Hua Wang,
+      "Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing",
+      <i>2024 IEEE International Solid-State Circuits Conference (ISSCC 2024)</i>
+    </li>
 
-<li>
-  [2] Hangxing Liu, Fuze Jiang, Dongwon Lee, Yuguo Sheng, Adam Wang, Marco Saif, Ying Kong, <u>Zhikai Huang</u>, Thomas Burger, Jing Wang, Hua Wang,
-  "A 256-Channel In-Pixel Electrochemical Platform in CMOS for Rapid Isothermal Genetic Amplification and Screening",
-  <i>2023 IEEE 49th European Solid-State Circuits Conference (ESSCIRC 2023)</i>
-</li>
+    <li>
+      [2] Hangxing Liu, Fuze Jiang, Dongwon Lee, Yuguo Sheng, Adam Wang, Marco Saif, Ying Kong, <u>Zhikai Huang</u>, Thomas Burger, Jing Wang, Hua Wang,
+      "A 256-Channel In-Pixel Electrochemical Platform in CMOS for Rapid Isothermal Genetic Amplification and Screening",
+      <i>2023 IEEE 49th European Solid-State Circuits Conference (ESSCIRC 2023)</i>
+    </li>
 
-<li>
-  [1] Alfio Di Mauro, Arpan Suravi Prasad, <u>Zhikai Huang</u>, Matteo Spallanzani, Francesco Conti, Luca Benini,
-  "SNE: An Energy-Proportional Digital Accelerator for Sparse Event-Based Convolutions",
-  <i>2022 Design, Automation & Test in Europe Conference & Exhibition (DATE 2022)</i>
-</li>
-
+    <li>
+      [1] Alfio Di Mauro, Arpan Suravi Prasad, <u>Zhikai Huang</u>, Matteo Spallanzani, Francesco Conti, Luca Benini,
+      "SNE: An Energy-Proportional Digital Accelerator for Sparse Event-Based Convolutions",
+      <i>2022 Design, Automation & Test in Europe Conference & Exhibition (DATE 2022)</i>
+    </li>
   </ul>
 
-<strong>Thesis</strong>
-
+  <strong>Thesis</strong>
   <ul class="pub-list">
     <li>
       [2] <u>Zhikai Huang</u>, "A Continuous-Time Input Pipelined SAR ADC with Loop-Embedded Predictive Offset Generation",
@@ -429,8 +458,7 @@
     </li>
   </ul>
 
-<strong>Mentoring</strong>
-
+  <strong>Mentoring</strong>
   <ul>
     <li>
       2025 Spring, Noelle Held, "Comparative Study on the Performance of Planar Microelectrodes and 3D Shell Electrodes for Biological Interfacing",
@@ -452,7 +480,7 @@
     </li>
 
   </ul>
-
+  
   <h2 id="services">Services</h2>
   <strong>Journal Reviewer</strong>
   <ul>
@@ -470,7 +498,7 @@
   <ul>
     <li>Outside of research, I enjoy traveling, photography, and practicing Chinese calligraphy. You can find some of my photos in my <strong><a href="https://img.hao.ink">Personal Album</a></strong>.</li>
   </ul>
-
+  
   <footer>
     <p>
       <script type="text/javascript" src="https://counter.websiteout.com/js/21/10/317/1"></script>
@@ -488,6 +516,71 @@
   window.addEventListener("scroll", () => {
     btn.style.display = window.scrollY > 300 ? "block" : "none";
   });
+  // Number rendered text lines rather than HTML source lines.
+  // Recalculate after wrapping, font loading, and viewport changes.
+  function updateLineNumbers() {
+    const main = document.querySelector('main');
+    const gutter = document.getElementById('lineGutter');
+    if (!main || !gutter) return;
+
+    const mainTop = main.getBoundingClientRect().top;
+    const lineRects = [];
+    const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT, {
+      acceptNode(node) {
+        if (!node.textContent.trim() || node.parentElement.closest('#lineGutter, script, style')) {
+          return NodeFilter.FILTER_REJECT;
+        }
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    while (walker.nextNode()) {
+      const range = document.createRange();
+      range.selectNodeContents(walker.currentNode);
+      for (const rect of range.getClientRects()) {
+        if (rect.width > 1 && rect.height > 1) {
+          lineRects.push({
+            top: rect.top - mainTop,
+            center: rect.top - mainTop + rect.height / 2
+          });
+        }
+      }
+    }
+    // Inline spans, bold text and links on the same rendered line can have
+    // slightly different top coordinates. Group by their vertical centers
+    // so those fragments never produce overlapping duplicate numbers.
+    lineRects.sort((a, b) => a.center - b.center);
+    const lines = [];
+    for (const rect of lineRects) {
+      const last = lines[lines.length - 1];
+      if (last && Math.abs(rect.center - last.center) < 12) {
+        last.top = Math.min(last.top, rect.top);
+        last.center = (last.center * last.count + rect.center) / (last.count + 1);
+        last.count++;
+      } else {
+        lines.push({ ...rect, count: 1 });
+      }
+    }
+    const fragment = document.createDocumentFragment();
+    lines.forEach((line, i) => {
+      const top = line.top;
+      const number = document.createElement('span');
+      number.className = 'line-number';
+      number.style.top = `${top}px`;
+      number.textContent = String(i + 1).padStart(3, '0');
+      fragment.appendChild(number);
+    });
+    gutter.replaceChildren(fragment);
+  }
+  let numberingFrame;
+  function scheduleLineNumbers() {
+    cancelAnimationFrame(numberingFrame);
+    numberingFrame = requestAnimationFrame(updateLineNumbers);
+  }
+  window.addEventListener('load', scheduleLineNumbers);
+  window.addEventListener('resize', scheduleLineNumbers);
+  if (document.fonts) document.fonts.ready.then(scheduleLineNumbers);
+  scheduleLineNumbers();
+
   function scrollToTop() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
