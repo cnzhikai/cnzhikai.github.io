@@ -1,25 +1,55 @@
 <!doctype html>
+
 <html lang="en">
 <head>
 
   <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+
   <script>LA.init({id:"JsE1nG9OlmeP5IDa",ck:"JsE1nG9OlmeP5IDa"})</script>
-  
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Zhikai Huang (黄志凯)</title>
 
   <style>
-    :root { --max: 1000px; }
+    :root {
+      --max: 1000px;
+      --ink: #17243b;
+      --muted: #56657a;
+      --accent: #167d8d;
+      --accent-strong: #106474;
+      --line: #dce5ec;
+      --surface: rgba(255, 255, 255, 0.94);
+      --soft: #f2f7f8;
+      --shadow: 0 18px 50px rgba(28, 54, 75, 0.08);
+    }
 
+    * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, Arial, sans-serif;
       margin: 0;
-      color: #111;
-      line-height: 1.6;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at 10% 0%, rgba(46, 155, 166, 0.11), transparent 34rem),
+        linear-gradient(180deg, #f5f9fb 0%, #f8fafc 45%, #f3f7f9 100%);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: var(--accent-strong);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    a:hover { color: #0b5969; }
+    a:focus-visible, button:focus-visible {
+      outline: 3px solid rgba(22, 125, 141, 0.38);
+      outline-offset: 3px;
+      border-radius: 5px;
     }
 
     /* ===== Top navigation ===== */
@@ -27,23 +57,30 @@
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: #ffffff;
-      border-bottom: 1px solid #e6e8ee;
+      background: rgba(255, 255, 255, 0.92);
+      border-bottom: 1px solid rgba(210, 222, 231, 0.9);
+      box-shadow: 0 5px 22px rgba(27, 50, 70, 0.045);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
     }
 
     .nav {
       max-width: var(--max);
+      min-height: 68px;
       margin: 0 auto;
-      padding: 12px 16px;
+      padding: 11px 20px;
       display: flex;
       align-items: center;
-      gap: 16px;
+      justify-content: space-between;
+      gap: 18px;
       flex-wrap: wrap;
     }
 
     .title {
-      font-size: 20px;
-      font-weight: 600;
+      color: #172a42;
+      font-size: 19px;
+      font-weight: 750;
+      letter-spacing: -0.035em;
       line-height: 1.2;
       white-space: nowrap;
     }
@@ -51,38 +88,65 @@
     .nav-links {
       display: flex;
       align-items: center;
-      gap: 18px;
+      gap: 4px;
       flex-wrap: wrap;
     }
 
     .nav a {
-      text-decoration: none;
-      color: #2b2f77;
-      font-size: 14px;
+      color: #40536a;
+      font-size: 13px;
+      font-weight: 600;
       line-height: 1.2;
-      padding: 4px 8px;
-      border-radius: 6px;
+      padding: 9px 10px;
+      border-radius: 8px;
       display: inline-flex;
       align-items: center;
       white-space: nowrap;
+      text-decoration: none;
+      transition: color 160ms ease, background 160ms ease, transform 160ms ease;
     }
-
-    .nav a:hover { background: #eef2ff; }
+    .nav a:hover { color: var(--accent-strong); background: #eaf5f5; transform: translateY(-1px); }
 
     /* ===== Anchor offset for sticky header ===== */
-    h1, h2, h3 { scroll-margin-top: 72px; }
+    h1, h2, h3 { scroll-margin-top: 88px; }
 
     /* ===== Main content ===== */
     main {
       max-width: var(--max);
-      margin: 0 auto;
-      padding: 0px 16px 80px;
+      margin: 36px auto 56px;
+      padding: 34px clamp(22px, 5vw, 54px) 54px;
+      background: var(--surface);
+      border: 1px solid rgba(218, 228, 235, 0.9);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
     }
 
-    h1 { font-size: 30px; margin-top: 0; }
-    h2 { margin-top: 20px; font-size: 22px; }
+    h1 { font-size: 32px; margin-top: 0; }
+    h2 {
+      position: relative;
+      margin: 48px 0 18px;
+      padding: 0 0 11px 16px;
+      color: #1b3048;
+      font-size: 23px;
+      font-weight: 750;
+      letter-spacing: -0.035em;
+      line-height: 1.3;
+      border-bottom: 1px solid var(--line);
+    }
+    h2::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 3px;
+      bottom: 14px;
+      width: 4px;
+      border-radius: 99px;
+      background: linear-gradient(180deg, #35a8a8, #176e8a);
+    }
+    #about { margin-top: 8px; }
     p { margin-top: 10px; }
     ul { padding-left: 22px; }
+    main > strong { display: inline-block; margin: 10px 0 2px; color: #28445d; font-size: 15px; }
 
     table {
       width: 100%;
@@ -90,31 +154,28 @@
       margin-top: 14px;
       font-size: 14px;
     }
-
-    th, td {
-      border: 1px solid #dfe3ea;
-      padding: 10px;
-      vertical-align: top;
-    }
-
-    th { background: #f2f4f7; }
+    th, td { border: 1px solid var(--line); padding: 10px; vertical-align: top; }
+    th { background: var(--soft); }
 
     .pill {
       display: inline-block;
-      font-size: 12px;
-      padding: 2px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.025em;
+      padding: 3px 9px;
       border-radius: 999px;
-      background: #eef2ff;
-      border: 1px solid #d8ddff;
-      color: #2b2f77;
+      background: #e9f5f4;
+      border: 1px solid #c9e6e3;
+      color: #176b72;
       margin-left: 6px;
+      vertical-align: 1px;
     }
 
     .note {
       font-size: 14px;
-      color: #333;
-      background: #fff7e6;
-      border: 1px solid #ffe2a6;
+      color: #493c20;
+      background: #fff9ed;
+      border: 1px solid #f2dfb5;
       padding: 12px 14px;
       border-radius: 10px;
       margin-top: 14px;
@@ -122,75 +183,91 @@
 
     footer {
       font-size: 12px;
-      color: #555;
-      margin-top: 40px;
+      color: var(--muted);
+      margin-top: 46px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
     }
 
-    .pub-list {
-      list-style: none;
-      padding-left: 0;
-      margin-top: 8px;
+    .pub-list { list-style: disc; padding-left: 22px; margin-top: 8px; }
+    .pub-list li {
+      margin-bottom: 12px;
+      padding: 0;
+      line-height: 1.68;
+      overflow-wrap: anywhere;
     }
-
-    .pub-list li { margin-bottom: 14px; }
 
     /* ===== About layout (avatar on the left) ===== */
-    .about-wrap{
+    .about-wrap {
       display: flex;
-      gap: 18px;
+      gap: 26px;
       align-items: center;
       margin-top: 8px;
+      padding: 22px;
+      border: 1px solid #deeaed;
+      border-radius: 18px;
+      background: linear-gradient(125deg, #f3f9f9 0%, #f8fbfd 70%, #fff 100%);
     }
 
-    .avatar{
-      width: 150px;
-      height: 150px;
-      border-radius: 14px;      /* 你想圆形就改成 999px */
+    .avatar {
+      width: 158px;
+      height: 158px;
+      border-radius: 18px;
       object-fit: cover;
-      border: 1px solid #e6e8ee;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+      border: 3px solid #fff;
+      box-shadow: 0 9px 24px rgba(29, 74, 90, 0.16);
       flex: 0 0 auto;
-      background: #f6f7fb;
+      background: #f1f5f7;
     }
 
-    .about-text{
-      flex: 1 1 auto;
-      min-width: 0;
-    }
+    .about-text { flex: 1 1 auto; min-width: 0; color: #34485e; }
 
     /* Mobile: stack */
-    @media (max-width: 640px){
-      .about-wrap{
-        flex-direction: column;
-        align-items: center;
-      }
-      .about-text{
-        width: 100%;
-      }
-      .avatar{
-        width: 160px;
-        height: 160px;
-      }
+    @media (max-width: 700px) {
+      .nav { justify-content: center; gap: 9px; padding: 12px 14px; }
+      .title { width: 100%; text-align: center; }
+      .nav-links { justify-content: center; gap: 2px; }
+      .nav a { padding: 8px 9px; }
+      main { margin: 18px 12px 32px; padding: 26px 20px 36px; border-radius: 17px; }
+      h2 { margin-top: 38px; font-size: 21px; }
+      .about-wrap { flex-direction: column; align-items: center; gap: 16px; padding: 20px; }
+      .about-text { width: 100%; }
+      .avatar { width: 150px; height: 150px; }
+      .pub-list li { padding: 12px 13px; overflow-wrap: anywhere; }
+    }
+
+    @media (max-width: 380px) {
+      .nav-links { gap: 0; }
+      .nav a { font-size: 12px; padding: 7px; }
+      main { margin-left: 8px; margin-right: 8px; padding-left: 16px; padding-right: 16px; }
     }
 
     /* ===== Back to top button ===== */
     #backToTop {
       position: fixed;
       right: 22px;
-      bottom: 26px;
-      background: #2b2f77;
+      bottom: 24px;
+      z-index: 1001;
+      background: #176e7b;
       color: #fff;
-      border: none;
+      border: 1px solid rgba(255,255,255,.45);
       border-radius: 999px;
-      padding: 10px 14px;
+      padding: 11px 16px;
       font-size: 14px;
+      font-weight: 700;
       cursor: pointer;
       display: none;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      box-shadow: 0 8px 22px rgba(21, 92, 106, 0.24);
+      transition: background 160ms ease, transform 160ms ease;
     }
+    #backToTop:hover { background: #105764; transform: translateY(-2px); }
 
-    #backToTop:hover { background: #1f235c; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+    }
   </style>
+
 </head>
 
 <body>
@@ -215,20 +292,22 @@
   <h2 id="about">About</h2>
 
   <!-- ✅ About with avatar on the left -->
+
   <div class="about-wrap">
     <!-- 把图片路径换成你的头像路径 -->
     <img class="avatar" src="Zhikai_Photo.png" alt="Zhikai Huang portrait" />
 
-    <div class="about-text">
-      I am a Ph.D. student in Information Technology and Electrical
-      Engineering at <a href="https://ethz.ch/en.html">ETH Zürich</a>, working in the
-      <a href="https://ideas.ethz.ch/">Integrated Devices, Electronics, and Systems (IDEAS) Group</a>
-      under the supervision of Prof. Dr. Hua Wang.
-      Prior to my PhD, I obtained my M.Sc. in Biomedical Engineering at ETH Zurich,
-      a B.Eng. in Microelectronics from Xi’an Jiaotong University, and was a visiting
-      research intern at the Department of Physics at McGill University.
-      Feel free to reach out for any questions or collaboration opportunities.
-    </div>
+<div class="about-text">
+  I am a Ph.D. student in Information Technology and Electrical
+  Engineering at <a href="https://ethz.ch/en.html">ETH Zürich</a>, working in the
+  <a href="https://ideas.ethz.ch/">Integrated Devices, Electronics, and Systems (IDEAS) Group</a>
+  under the supervision of Prof. Dr. Hua Wang.
+  Prior to my PhD, I obtained my M.Sc. in Biomedical Engineering at ETH Zurich,
+  a B.Eng. in Microelectronics from Xi’an Jiaotong University, and was a visiting
+  research intern at the Department of Physics at McGill University.
+  Feel free to reach out for any questions or collaboration opportunities.
+</div>
+
   </div>
 
   <h2 id="research">Research</h2>
@@ -240,17 +319,18 @@
       Development of scalable sensing and actuation interfaces on integrated circuit platforms for applications in life sciences and biotechnology, with a particular focus on 3D bio-CMOS interfaces.
     </li>
 
-    <li>
-      <strong>Analog-/Mixed-Signal Integrated Circuits</strong>
-      <span class="pill">VLSI (2024)</span><span class="pill">ESSERC (2024)</span><br/>
-      Development of precision analog, mixed-signal integrated circuits for large-scale sensing and actuation array, with a particular focus on electrochemical analog front-end circuits. 
-    </li>
+<li>
+  <strong>Analog-/Mixed-Signal Integrated Circuits</strong>
+  <span class="pill">VLSI (2024)</span><span class="pill">ESSERC (2024)</span><br/>
+  Development of precision analog, mixed-signal integrated circuits for large-scale sensing and actuation array, with a particular focus on electrochemical analog front-end circuits. 
+</li>
 
-    <li>
-      <strong>Machine Learning at Edge</strong>
-      <span class="pill">DATE (2022)</span><br/>
-      Improving data and energy efficiency through analog in-sensor computing and/or digital hardware acceleration.
-    </li>
+<li>
+  <strong>Machine Learning at Edge</strong>
+  <span class="pill">DATE (2022)</span><br/>
+  Improving data and energy efficiency through analog in-sensor computing and/or digital hardware acceleration.
+</li>
+
   </ul>
 
   <h2 id="publications">Publications</h2>
@@ -262,8 +342,8 @@
       <i>IEEE Journal of Solid-State Circuits, vol. 61, no. 9, pp. 4841-4853, Sept. 2026</i>
     </li>
    </ul>
-     
-  <strong>Conference Papers</strong>
+
+<strong>Conference Papers</strong>
 
   <ul class="pub-list">
     <li>
@@ -272,56 +352,58 @@
       <i>2026 IEEE International Solid-State Circuits Conference (ISSCC 2026)</i>
     </li>
 
-    <li>
-      [8] Marco Saif, Fuze Jiang, Shao-Wei Lo, Adam Y. Wang, <u>Zhikai Huang</u>, Jiachen Wang, Hangxing Liu, Chih-Jen Shih, Thomas Burger, Hua Wang,
-      "MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration",
-      <i>2025 IEEE International Solid-State Circuits Conference (ISSCC 2025)</i>
-    </li>
+<li>
+  [8] Marco Saif, Fuze Jiang, Shao-Wei Lo, Adam Y. Wang, <u>Zhikai Huang</u>, Jiachen Wang, Hangxing Liu, Chih-Jen Shih, Thomas Burger, Hua Wang,
+  "MEMS-Free 4096-Pixel CMOS E-Nose Gas Sensor Array with Molecular-Selective Metal-Organic-Framework Sensing and In-Pixel Thermodynamic Modulation for Fast Sensor Regeneration",
+  <i>2025 IEEE International Solid-State Circuits Conference (ISSCC 2025)</i>
+</li>
 
-    <li>
-      [7] <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang,
-      "A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing",
-      <i>2024 IEEE Biomedical Circuits and Systems Conference (BioCAS 2024)</i>
-    </li>
+<li>
+  [7] <u>Zhikai Huang</u>, Fuze Jiang, Hangxing Liu, Ying Kong, Yuguo Sheng, Adam Wang, Dongwon Lee, Marco Saif, Hua Wang,
+  "A CMOS-Compatible and Actuatable 3D-Microcage Array with Shape-Memory for On-Chip Dynamic Cell Interfacing",
+  <i>2024 IEEE Biomedical Circuits and Systems Conference (BioCAS 2024)</i>
+</li>
 
-    <li>
-      [6] Marco Saif, Fuze Jiang, Hangxing Liu, Adam Wang, <u>Zhikai Huang</u>, Yuguo Sheng, Dongwon Lee, Thomas Burger, Hua Wang,
-      "A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution",
-      <i>2024 IEEE European Solid-State Electronics Research Conference (ESSERC 2024)</i>
-    </li>
+<li>
+  [6] Marco Saif, Fuze Jiang, Hangxing Liu, Adam Wang, <u>Zhikai Huang</u>, Yuguo Sheng, Dongwon Lee, Thomas Burger, Hua Wang,
+  "A CMOS Molecular Sensor for Personalized Diagnostics Featuring Enzyme-Free Reading and Encoding of Viral Variants at Single-Nucleotide Resolution",
+  <i>2024 IEEE European Solid-State Electronics Research Conference (ESSERC 2024)</i>
+</li>
 
-    <li>
-      [5] Hangxing Liu, Fuze Jiang, Adam Wang, <u>Zhikai Huang</u>, Ying Kong, Marco Saif, Dongwon Lee, Thomas Burger, Jing Wang, Hua Wang,
-      "Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters",
-      <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
-    </li>
+<li>
+  [5] Hangxing Liu, Fuze Jiang, Adam Wang, <u>Zhikai Huang</u>, Ying Kong, Marco Saif, Dongwon Lee, Thomas Burger, Jing Wang, Hua Wang,
+  "Highly Sensitive Multimodal CMOS Antifouling Sensor Array with Multi-Use Electrodes for Single-Cell-Level Profiling of Biophysical and Biochemical Parameters",
+  <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
+</li>
 
-    <li>
-      [4] Hangxing Liu, Fuze Jiang, Ying Kong, Dongwon Lee, Yuguo Sheng, Adam Wang, <u>Zhikai Huang</u>, Marco Saif, Thomas Burger, Jing Wang, Hua Wang,
-      "A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics",
-      <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
-    </li>
+<li>
+  [4] Hangxing Liu, Fuze Jiang, Ying Kong, Dongwon Lee, Yuguo Sheng, Adam Wang, <u>Zhikai Huang</u>, Marco Saif, Thomas Burger, Jing Wang, Hua Wang,
+  "A Subcellular-Resolution Multimodal CMOS Biosensor Array with 16K Ion-Selective Pixels for Real-Time Monitoring Potassium Dynamics",
+  <i>2024 IEEE Symposium on VLSI Technology and Circuits (VLSI 2024)</i>
+</li>
 
-    <li>
-      [3] Dongwon Lee, Kyung-Sik Choi, Fuze Jiang, Hangxing Liu, Doohwan Jung, Ying Kong, Marco Saif, <u>Zhikai Huang</u>, Jing Wang, Hua Wang,
-      "Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing",
-      <i>2024 IEEE International Solid-State Circuits Conference (ISSCC 2024)</i>
-    </li>
+<li>
+  [3] Dongwon Lee, Kyung-Sik Choi, Fuze Jiang, Hangxing Liu, Doohwan Jung, Ying Kong, Marco Saif, <u>Zhikai Huang</u>, Jing Wang, Hua Wang,
+  "Fully Integrated CMOS Ferrofluidic Biomolecular Processing Platform with On-Chip Droplet-Based Manipulation, Multiplexing and Sensing",
+  <i>2024 IEEE International Solid-State Circuits Conference (ISSCC 2024)</i>
+</li>
 
-    <li>
-      [2] Hangxing Liu, Fuze Jiang, Dongwon Lee, Yuguo Sheng, Adam Wang, Marco Saif, Ying Kong, <u>Zhikai Huang</u>, Thomas Burger, Jing Wang, Hua Wang,
-      "A 256-Channel In-Pixel Electrochemical Platform in CMOS for Rapid Isothermal Genetic Amplification and Screening",
-      <i>2023 IEEE 49th European Solid-State Circuits Conference (ESSCIRC 2023)</i>
-    </li>
+<li>
+  [2] Hangxing Liu, Fuze Jiang, Dongwon Lee, Yuguo Sheng, Adam Wang, Marco Saif, Ying Kong, <u>Zhikai Huang</u>, Thomas Burger, Jing Wang, Hua Wang,
+  "A 256-Channel In-Pixel Electrochemical Platform in CMOS for Rapid Isothermal Genetic Amplification and Screening",
+  <i>2023 IEEE 49th European Solid-State Circuits Conference (ESSCIRC 2023)</i>
+</li>
 
-    <li>
-      [1] Alfio Di Mauro, Arpan Suravi Prasad, <u>Zhikai Huang</u>, Matteo Spallanzani, Francesco Conti, Luca Benini,
-      "SNE: An Energy-Proportional Digital Accelerator for Sparse Event-Based Convolutions",
-      <i>2022 Design, Automation & Test in Europe Conference & Exhibition (DATE 2022)</i>
-    </li>
+<li>
+  [1] Alfio Di Mauro, Arpan Suravi Prasad, <u>Zhikai Huang</u>, Matteo Spallanzani, Francesco Conti, Luca Benini,
+  "SNE: An Energy-Proportional Digital Accelerator for Sparse Event-Based Convolutions",
+  <i>2022 Design, Automation & Test in Europe Conference & Exhibition (DATE 2022)</i>
+</li>
+
   </ul>
 
-  <strong>Thesis</strong>
+<strong>Thesis</strong>
+
   <ul class="pub-list">
     <li>
       [2] <u>Zhikai Huang</u>, "A Continuous-Time Input Pipelined SAR ADC with Loop-Embedded Predictive Offset Generation",
@@ -347,7 +429,8 @@
     </li>
   </ul>
 
-  <strong>Mentoring</strong>
+<strong>Mentoring</strong>
+
   <ul>
     <li>
       2025 Spring, Noelle Held, "Comparative Study on the Performance of Planar Microelectrodes and 3D Shell Electrodes for Biological Interfacing",
@@ -369,7 +452,7 @@
     </li>
 
   </ul>
-  
+
   <h2 id="services">Services</h2>
   <strong>Journal Reviewer</strong>
   <ul>
@@ -387,10 +470,10 @@
   <ul>
     <li>Outside of research, I enjoy traveling, photography, and practicing Chinese calligraphy. You can find some of my photos in my <strong><a href="https://img.hao.ink">Personal Album</a></strong>.</li>
   </ul>
-  
+
   <footer>
     <p>
-      <script type="text/javascript" src="https://counter.websiteout.com/js/21/10/317/1"></script>
+      <script type="text/javascript" src="https://counter.websiteout.com/js/21/10/1008/1"></script>
       | Last Update: 2026/11 |
       <a href="https://github.com/cnzhikai/cnzhikai.github.io">Admin</a>
     </p>
